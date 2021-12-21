@@ -1,15 +1,14 @@
-import Img from "next/image";
-
 const Header = () => (
   <header>
     <div className="global-wrap">
       <div className="header">
-        <Img src="/logo.png" width="166" height="89" />
+        <img src="/logo.png" alt="Branbrook Construction, LLC" />
 
         <nav>
           <a href="/">Home</a>
           <a href="/about">About</a>
           <a
+            className="icon"
             href="https://www.facebook.com/branbrookconstruction/"
             target="_blank"
           >

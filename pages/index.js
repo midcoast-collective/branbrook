@@ -13,30 +13,48 @@ const Home = () => {
       <Header />
 
       <div className={styles.hero} />
+
       <div className={styles.callout}>
-        <div className={styles.calloutText}>
-          <div className="global-wrap">
-            <p>We’re constructing safe, affordable and</p>
-            <p>reliable innovation, out of sight, but always</p>
-            <p>with our customers in mind.</p>
-          </div>
+        <div className="global-wrap">
+          <p>We’re constructing safe, affordable and</p>
+          <p>reliable innovation, out of sight, but</p>
+          <p>always with our customers in mind.</p>
         </div>
       </div>
 
       <div className="global-wrap">
-        <main className={styles.main}>
-          <h1 className={styles.title}>
-            Welcome to <a href="https://nextjs.org">Next.js!</a>
-          </h1>
+        <div className={styles.caption}>
+          <img src="/team.jpg" alt="" />
 
-          <p className={styles.description}>
-            Get started by editing{" "}
-            <code className={styles.code}>pages/index.js</code>
+          <p>
+            Through the inspiration of the late Steve Grooms (co-founder), the
+            passion to which our family encompases, and the empowerment of our
+            faith, the Grooms family continues to build a company whose sole
+            purpose is to serve the Kingdom and the needs of others. Branbrook
+            is constructing networks, one relationship at a time.
           </p>
-        </main>
-
-        <Footer />
+        </div>
       </div>
+
+      <div className={styles.centeredText}>
+        <div className="global-wrap">
+          <p>
+            Branbrook approaches business using the 3 F's: <b>Faith</b>,{" "}
+            <b>Family</b>, and <b>Friendships</b>. At Branbrook, we strive to be
+            the fair, reliable, efficient, safe and affordable choice for all
+            your innovative utility construction projects.
+          </p>
+        </div>
+      </div>
+
+      <div className={styles.blocks}>
+        <img src="/one.jpg" alt="" />
+        <img src="/two.jpg" alt="" />
+        <img src="/three.jpg" alt="" />
+        <img src="/four.jpg" alt="" />
+      </div>
+
+      <Footer />
     </>
   );
 };
