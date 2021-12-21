@@ -13,6 +13,15 @@ const Home = () => {
       <Header />
 
       <div className={styles.hero} />
+      <div className={styles.callout}>
+        <div className={styles.calloutText}>
+          <div className="global-wrap">
+            <p>We’re constructing safe, affordable and</p>
+            <p>reliable innovation, out of sight, but always</p>
+            <p>with our customers in mind.</p>
+          </div>
+        </div>
+      </div>
 
       <div className="global-wrap">
         <main className={styles.main}>

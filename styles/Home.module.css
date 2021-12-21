@@ -5,3 +5,46 @@
   height: 600px;
   width: 100%;
 }
+
+.callout {
+  align-items: center;
+  background-image: url("../public/tower.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-black);
+  height: 600px;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.calloutText {
+  background-color: var(--color-white);
+  padding: 1rem;
+}
+
+.calloutText p {
+  display: inline;
+  margin: 0;
+  padding: 0.25rem;
+}
+
+@media (min-width: 780px) {
+  .calloutText {
+    background-color: transparent;
+  }
+
+  .calloutText p {
+    background-color: var(--color-white);
+    display: inline-block;
+    margin: 0;
+    padding: 0.25rem 1rem;
+  }
+
+  .calloutText p + p {
+    margin-top: 1rem;
+  }
+}
