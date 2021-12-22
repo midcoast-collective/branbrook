@@ -2,7 +2,11 @@ const Header = () => (
   <header>
     <div className="global-wrap">
       <div className="header">
-        <img src="/logo.png" alt="Branbrook Construction, LLC" />
+        <img
+          className="logo"
+          src="/logo.png"
+          alt="Branbrook Construction, LLC"
+        />
 
         <nav>
           <a href="tel:(816) 575-2560">(816) 575-2560</a>
