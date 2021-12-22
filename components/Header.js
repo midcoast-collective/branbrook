@@ -5,8 +5,7 @@ const Header = () => (
         <img src="/logo.png" alt="Branbrook Construction, LLC" />
 
         <nav>
-          <a href="/">Home</a>
-          <a href="/about">About</a>
+          <a href="tel:(816) 575-2560">(816) 575-2560</a>
           <a
             className="icon"
             href="https://www.facebook.com/branbrookconstruction/"

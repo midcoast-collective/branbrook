@@ -48,8 +48,24 @@
 }
 
 .caption p {
-  font-size: var(--font-size-default);
   padding-left: 6rem;
+}
+
+@media (max-width: 780px) {
+  .caption {
+    flex-direction: column;
+    padding: 5rem 0;
+  }
+
+  .caption img {
+    margin: 0;
+    width: 70%;
+  }
+
+  .caption p {
+    padding-left: 0;
+    padding-top: 2rem;
+  }
 }
 
 .centeredText {
@@ -75,4 +91,26 @@
   border: var(--border-width) solid var(--color-white);
   height: auto;
   width: 50%;
+}
+
+@media (max-width: 780px) {
+  .blocks > img {
+    width: 100%;
+  }
+}
+
+.content {
+  background-color: var(--color-gray);
+  padding: 6rem 0;
+}
+
+.content h1 {
+  font-size: var(--font-size-callout);
+  text-align: center;
+}
+
+.content p {
+  margin: 1rem auto;
+  max-width: 840px;
+  /* text-indent: 2rem; */
 }

@@ -1,6 +1,6 @@
 html {
   --color-green: #20413a;
-  --color-gray: #262626;
+  --color-gray: #eaeaea;
   --color-yellow: #b58539;
   --color-white: #ffffff;
 
@@ -50,6 +50,10 @@ a {
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 header {
   background-color: var(--color-green);
   width: 100%;
@@ -69,7 +73,10 @@ nav {
 
 nav > * {
   color: var(--color-white);
-  font-weight: var(--font-weight-normal);
+  font-weight: var(--font-weight-bold);
+  line-height: 1;
+  margin: 0;
+  padding: 0;
   text-transform: uppercase;
 }
 

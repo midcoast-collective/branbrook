@@ -54,6 +54,43 @@ const Home = () => {
         <img src="/four.jpg" alt="" />
       </div>
 
+      <div className={styles.content}>
+        <div className="global-wrap">
+          <img src="/hero.jpg" alt="" />
+
+          <h1>Branbrook Construction, LLC</h1>
+
+          <p>
+            In <b>1963</b> Francis Grooms purchased the family farm in Kidder,
+            Missouri. For years, he and Ruth raised their three boys on the
+            farm, working from sunrise to sunset raising grain and cattle. In{" "}
+            <b>1993</b>, Steve, the youngest of the boys, and wife, June,
+            purchased the farm to raise their two children, Brandon and Brooke.
+            They renamed the farm Branbrook Farms. Through the years, Branbrook
+            Farms has been a successful operation growing corn, soybeans and
+            registered Angus cattle.
+          </p>
+          <p>
+            In <b>2006</b>, Steve and Brandon decided to expand their
+            entrepreneurial drive and created Branbrook Construction, LLC. With
+            just a skid loader and backhoe, Brandon and Steve worked to grow the
+            construction company doing various dirt and tree clearing projects.
+            In <b>2007</b>, Brandon married Meagan and started their family,
+            also residing on the family farm.
+          </p>
+          <p>
+            In <b>2010</b>, Branbrook construction evolved into a utility
+            construction company. They purchased a small case plow and traveled
+            all over the midwest placing services to homes. Throughout the past
+            decade, Branbrook has evolved into one of the region's premier
+            contractors, using the latest technology in directional boring,
+            excavation, and most importantly restoration. Our full line of
+            equipment and well trained staff are always ready to safely and
+            efficiently take on the next project.
+          </p>
+        </div>
+      </div>
+
       <Footer />
     </>
   );
